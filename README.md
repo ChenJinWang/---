@@ -1,8 +1,24 @@
 # ---
-学习
+1、冒泡排序
 
 </br>
-public static void Demo(int[] arr){
+package com.cjw.pet;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+@SpringBootTest
+class PetApplicationTests {
+
+    @Test
+    void contextLoads() {
+    }
+
+    @Test
+    public static void Demo(int[] arr){
         boolean flag = false;
         for (int i = 0; i<arr.length; i++){
                 for (int j = i + 1; j<arr.length; j++){
@@ -30,3 +46,8 @@ public static void Demo(int[] arr){
         System.out.println("冒泡排序后：");
         System.out.println(Arrays.toString(arr));
     }
+
+
+
+
+}
