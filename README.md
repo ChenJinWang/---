@@ -2,15 +2,6 @@
 1、冒泡排序
 
 </br>
-package com.cjw.pet;
-
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
-
-import java.util.Arrays;
-import java.util.Scanner;
-
-@SpringBootTest
 class PetApplicationTests {
 
     @Test
@@ -46,8 +37,4 @@ class PetApplicationTests {
         System.out.println("冒泡排序后：");
         System.out.println(Arrays.toString(arr));
     }
-
-
-
-
 }
